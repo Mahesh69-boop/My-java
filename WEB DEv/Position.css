@@ -1,0 +1,25 @@
+div{
+    border: 3px solid black;
+    position: relative;
+    height: 8000px;
+    background-color: aqua;
+
+}
+div img{
+    padding: 3px;
+}
+.img2{
+position: relative;
+
+}
+.img3{
+    position: fixed;
+}
+.img1{
+    position: sticky;
+    top: 100px;
+}
+.e{
+    background-color: blueviolet;
+    height: 8000px;
+}

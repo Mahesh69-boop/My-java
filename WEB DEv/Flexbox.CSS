@@ -1,0 +1,43 @@
+.Container{
+    background-color:rgb(219, 219, 117);
+    display: flex;
+    height: 800px;
+    border: 3px solid black; 
+    flex-direction:row;
+    justify-content:start;
+    align-items: start ;
+    
+}
+    
+    .box{
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+   
+
+
+}
+#box1{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    
+
+
+}
+#box2{
+    background-color: orange;
+    border: 2px solid black;
+    flex-grow: 1;
+
+}
+#box3{
+    background-color:blue;
+    border: 2px solid black;
+    flex-grow: 1;
+}
+#box4{
+    background-color: red;
+    border: 2px solid black;
+    flex-grow: 1;
+}
